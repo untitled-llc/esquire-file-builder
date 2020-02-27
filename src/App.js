@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <form className="App-header">
+      <label for="count">Choose count category</label>
+        <select id="count">
+          <option value="count-1">Count 1</option>
+          <option value="count-2">Count 2</option>
+          <option value="count-3">Count 3</option>
+          <option value="count-4">Count 4</option>
+        </select>
+        <button type="submit">Get Count</button>
+      </form>
     </div>
   );
 }
