@@ -10,6 +10,11 @@
             "StackName": "amplify-esquirefilebuilder-dev-170342",
             "StackId": "arn:aws:cloudformation:us-east-1:918728295178:stack/amplify-esquirefilebuilder-dev-170342/09b09190-ac27-11ea-8c37-0eb5b83f8639",
             "AmplifyAppId": "d2cj2o0cpp05k5"
+        },
+        "categories": {
+            "auth": {
+                "esquirefilebuilderf6040bfb": {}
+            }
         }
     }
 }
